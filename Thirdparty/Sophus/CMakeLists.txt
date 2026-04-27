@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.4)
 project(Sophus VERSION 1.1.0)
+add_compile_options(-Wno-error=array-bounds -Wno-array-bounds)
 
 include(CMakePackageConfigHelpers)
 include(GNUInstallDirs)
